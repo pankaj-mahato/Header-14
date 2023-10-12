@@ -1,0 +1,44 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.card {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card img {
+    max-width: 40%;
+    max-height: 400px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .image-left{
+    text-align: left;
+  }
+
+  .image-right{
+    float: right;
+  }
+
+  .card-content {
+    margin-left: 20px;
+  }
+
+  .card-content h2 {
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+    color: orange;
+  }
+
+  .card-content p {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+  }
